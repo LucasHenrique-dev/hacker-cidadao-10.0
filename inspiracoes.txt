@@ -4,3 +4,7 @@ ALURA-DEV: https://github.com/LucasHenrique-dev/alura-challenge_front-end
 APP-IDEAS: https://github.com/LucasHenrique-dev/app-ideas
 MONITORA TCC: https://github.com/LMM-Eng-Software/Monitora-TCC
 JOGO DA FORCA: https://github.com/LucasHenrique-dev/projeto-lpf
+
+UTILIDADES (ATALHO PARA TECHS INTERESSANTES):
+
+FAVICON: https://favicon.io/favicon-converter/
