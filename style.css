@@ -18,6 +18,7 @@
     align-items: center;
     color: #D9D9D9;
     background-image: url(rsc/nipanan-lifestyle-pV2xU2rP580-unsplash.jpg);
+    background-repeat: round;
     background-size: 100%;
     padding: 25%;
 
@@ -31,7 +32,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #606C38;
+    background-color: #020F0E;
 
 }
 
@@ -56,7 +57,7 @@
     align-items: center;
     position: relative;
     height: 100vh;
-    background-color: #606C38;
+    /* background-color: #606C38; */
     padding: 25%;
 
 }
@@ -75,7 +76,7 @@ button {
     text-align: center;
     align-items: center;
     position: relative;
-    background-color: #606C38;
+    /* background-color: #606C38; */
     color: white;
 
 }
@@ -88,7 +89,7 @@ button {
     align-items: center;
     position: flex;
     height: 100vh;
-    background-color: #606C38;
+    /* background-color: #606C38; */
     padding: 30%;
     
 }
