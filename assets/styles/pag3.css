@@ -1,0 +1,13 @@
+#pag3 {
+
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    padding: 25%;
+    background-color: #BCBD8B;
+    color: #FFFFFF;
+
+}
