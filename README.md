@@ -23,9 +23,5 @@ Especificações incluem:
 
 Para usar o Co-ReUsa!, clique em: [Co-ReUsa!](https://hacker-cidadao-10-0.vercel.app/)
 
-## 📝 Licença
-
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE) para mais detalhes.
-
 [⬆ Voltar ao topo](#-co-reusa)<br>
 
