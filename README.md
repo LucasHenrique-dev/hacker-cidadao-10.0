@@ -1,54 +1,31 @@
-# 🚮♻️🤖 [NOME LEGAL DO PROJETO]
+# ![coconut](https://user-images.githubusercontent.com/62728919/235281504-9a37cc42-2824-4dd0-a629-27defbe564d2.svg) Co-ReUsa!
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 ## ℹ Tabela de Conteúdos
-- [Descrição do Projeto](#dart-projeto-da-cadeira-de-compiladores-20222)
+- [Descrição do Projeto](#dart-projeto-hacker-cidadão---desafio-4)
 - [Especificações](#-especificações-do-projeto)
-- [Como Usar](#-como-usar-a-dsl-no-codespaces)
+- [Como Usar](#-como-usar)
 
 ## :dart: Projeto Hacker Cidadão - Desafio 4
 
-Desafio: Geração de um novo ecossistema econômico na cidade baseado no upcycling, estimulando a inovação e o empreendedorismo e criando novas oportunidades de trabalho para população.
+Desafio: A Co-ReUsa, em parceria com a EMLURB, tem o objetivo de incentivar o mercado da reutilização criativa do insumo de coco produzido pelos quiosques na orla do Recife e pelos papa-cocos distribuídos em pontos-chave da cidade, através da reutilização criativa desse insumo pelos artesãos do Recife.
 
 ## 📃 Especificações do Projeto
 
 Especificações incluem:
-- espec1
-- espec2
+- [Exposição da Proposta](https://www.figma.com/proto/x37EIeonTfBYJMzplT7t0Y/Untitled?node-id=130-76&scaling=scale-down&page-id=0%3A1&starting-point-node-id=130%3A76&show-proto-sidebar=1)
+- [Modelo de Negócios](https://miro.com/app/live-embed/uXjVMOMqius=/?moveToViewport=-988,-636,2178,1012&embedId=468404402806)
 
-Visualize as especificações do projeto: [Especificações Gerador Gráfico de Relatório](especificacoes)
+## ☕ Como Usar
 
-## ☕ Como Usar PROJETO no Codespaces
-
-Para usar PROJETO, siga estas etapas:
-
-1. Crie um codespace:
-    * Clique em "Code" e depois na opção "Create codespace on <branch>", onde <branch> é a branch em que se está trabalhando no momento </br>
-    ![Criação do Codespace](images/criar-codespace.png)
-1. Compilar a descrição da linguagem fonte:
-    * Use o seguinte comando
-      ```shell
-      java -jar antlr.jar -o src-gen GeradorRelatorio.g4
-      ```
-      > O comando acima executa o gerador ANTLR que converte a descrição da gramática (Expr.g4) em programas Java (Analisadores léxicos e sintáticos). Os códigos dos analisadores gerados serão armazendados na pasta src-gen.
-1. Compilar programas em Java:
-   * Use o seguinte comando
-      ```shell
-      javac -cp antlr.jar:fillo.jar:. -d classes src/*.java src-gen/*.java
-      ```
-      > O comando acima executa o compilador Java. O arquivo antlr.jar, que contem as bibliotecas runtime utilizadas pelo código gerado pelo antlr são adicionadas ao CLASSPATH, assim como fillo.jar para poder utilizar a API de Excel para Java. O compilador compila todos os arquivos java que estão no diretório "src" (arquivo escritos pelo programador) e no diretório "src-gen" (arquivos gerados automáticamente). Os arquivos binários compilados gerados pelo javac serão armazenados no diretório classes.
-
-1. Executar o programa:
-   * Use o seguinte comando
-     ```shell
-     java -cp antlr.jar:fillo.jar:classes Main
-     ```
-     > O comando acima executa a classe Main do compilador. Os arquivos binários das classes estão localizades no diretório "classes". Para a classe poder ser executada é necessário também incluir os arquivos do runtime do antlr.jar e fillo.jar.
+Para usar o Co-ReUsa!, clique em: [Co-ReUsa!](https://hacker-cidadao-10-0.vercel.app/)
 
 ## 📝 Licença
 
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE) para mais detalhes.
 
-[⬆ Voltar ao topo](#%EF%B8%8F-gerador-gráfico-de-relatório)<br>
+[⬆ Voltar ao topo](#-co-reusa)<br>
 
